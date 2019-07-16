@@ -1,0 +1,29 @@
+/* ----------------------------------------------- */
+/* BASIC SETUP */
+/* ----------------------------------------------- */
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html,
+body {
+  background-color: #fff;
+  color: #555;
+  font-family: 'Lato', 'Arial', sans-serif;
+  font-weight: 300;
+  font-size: 200px;
+}
+
+header {
+  background-image: url("https://images.pexels.com/photos/908298/pexels-photo-908298.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260");
+}
+
+.navbar-nav {
+  text-decoration: none;
+  padding-bottom: 1px;
+  border-bottom: 1px solid #e67e22;
+}
+/*# sourceMappingURL=style.css.map */
