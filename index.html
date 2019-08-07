@@ -4,18 +4,21 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet"> 
+        <link href="https://fonts.googleapis.com/css?family=Norican&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
         <link rel="stylesheet" href="vendor/bootstrap-grid.css" type="text/css">
-        <link rel="stylesheet" href="/css/style.css" type="text/css">
+        <link rel="stylesheet" href="/sass/style.css" type="text/css">
         <title>Module 4 Web Page with task runner</title>
     </head>
 
     <body>
-        <header>
+        <header class="header">
             <nav class="navbar">
                 <div class="container">
-                    <a class="navbar-brand" href="#">Golden</a>
-                        <div class="collapse navbar-collapse" id="mobile-menu">
+                    <div class="logo-box">
+                        <a class="navbar-brand" href="#">Golden</a>
+                    </div>
+                    <div class="navigation navbar-collapse">
                         <ul class="navbar-nav">
                             <li>
                                 <a class="nav-link" href="#">Home</a>
@@ -36,15 +39,14 @@
                     </div>
                 </div>
             </nav>
-            <div class="intro">
-                <h3>
-                    Welcome To Our Studio!
-                </h3>
-                <h1>
-                    IT'S NICE TO MEET YOU
-                </h1>
-                <a class="btn btn-full" href="#">TELL ME MORE</a>
-            </div>
+            <div class="text-box">
+                    <h1 class="heading-primary">
+                        <span class="heading-primary-main">Welcome To Our Studio!</span>
+                        <span class="heading-primary-sub">It's nice to meet you</span>
+                    </h1>
+    
+                    <a href="#" class="btn btn-yellow btn-animated">Tell me more</a>
+                </div>
         </header>
         <section class="services">
             <div class="container">
@@ -54,14 +56,10 @@
                     <div class="col-md-4 col-sm-12">
                         <div class="card p-3 mb-3">
                             <div class="row">
-                                <div class="col-md-2">
+                                <div class="col-md-12">
                                     <i class="fas fa-shopping-basket"></i>
-                                </div>
-                                <div class="col-md-10">
-                                    <div class="card-body">
-                                        <h3>E-Commerce</h3>
-                                        <p>Lorem ipsum dolor sit amet.</p>
-                                    </div>
+                                    <h3>E-Commerce</h3>
+                                    <p>Lorem ipsum dolor sit amet.</p>
                                 </div>
                             </div>
                         </div>
@@ -69,14 +67,10 @@
                     <div class="col-md-4 col-sm-12">
                         <div class="card p-3 mb-3">
                             <div class="row">
-                                <div class="col-md-2">
+                                <div class="col-md-12">
                                     <i class="fas fa-laptop-code"></i>
-                                </div>
-                                <div class="col-md-10">
-                                    <div class="card-body">
-                                        <h3>Responsive Web</h3>
-                                        <p>Lorem ipsum dolor sit amet.</p>
-                                    </div>
+                                    <h3>Responsive Web</h3>
+                                    <p>Lorem ipsum dolor sit amet.</p>
                                 </div>
                             </div>
                         </div>
@@ -84,14 +78,10 @@
                     <div class="col-md-4 col-sm-12">
                         <div class="card p-3 mb-3">
                             <div class="row">
-                                <div class="col-2">
+                                <div class="col-md-12">
                                     <i class="fas fa-lock"></i>
-                                </div>
-                                <div class="col-md-10">
-                                    <div class="card-body">
-                                        <h3>Web Security</h3>
-                                        <p>Lorem ipsum dolor sit amet.</p>
-                                    </div>
+                                    <h3>Web Security</h3>
+                                    <p>Lorem ipsum dolor sit amet.</p>
                                 </div>
                             </div>
                         </div>
@@ -176,17 +166,11 @@
         <footer class="page-footer">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-4">
-                        <p> &copy; Copyright 2014 FreebiesXpress.com</p>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="row">
-                            <a href="#"><i class="fab fa-twitter"></i></a>
-                            <a href="#"><i class="fab fa-facebook-f"></i></a>
-                            <a href="#"><i class="fab fa-instagram"></i></a>
-                            <a href="#"><i class="fab fa-youtube"></i></a>
-                        </div>
-                    </div>
+                    <p> &copy; Copyright 2014 FreebiesXpress.com</p>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a> 
                 </div>
             </div>
         </footer>
