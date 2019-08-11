@@ -256,3 +256,31 @@ section {
 .portfolio {
     background-color:rgb(238, 238, 238);
 }
+
+/*FOOTER*/
+
+.socials {
+    margin: 0 auto;
+    padding: 0px 0;
+}
+
+.page-footer {
+    line-height: 50px; 
+    color:grey;
+}
+.fab {
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    color: #ffffff;
+    line-height: 50px;
+    text-align: center;
+    background-color: black;
+    border-radius: 50%; 
+    margin: 0 5px;
+}
+.fab:hover {
+    transition: all 1s;
+    transform: scale(1.1); 
+  }
+

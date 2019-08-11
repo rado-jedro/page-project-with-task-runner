@@ -345,4 +345,34 @@ section {
 .portfolio {
   background-color: #eeeeee;
 }
+
+/*FOOTER*/
+.socials {
+  margin: 0 auto;
+  padding: 0px 0;
+}
+
+.page-footer {
+  line-height: 50px;
+  color: grey;
+}
+
+.fab {
+  width: 50px;
+  height: 50px;
+  font-size: 25px;
+  color: #ffffff;
+  line-height: 50px;
+  text-align: center;
+  background-color: black;
+  border-radius: 50%;
+  margin: 0 5px;
+}
+
+.fab:hover {
+  -webkit-transition: all 1s;
+  transition: all 1s;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
 /*# sourceMappingURL=style.css.map */
